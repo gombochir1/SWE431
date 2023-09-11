@@ -1,0 +1,46 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Auth Section</title>
+</head>
+
+<body>
+
+    <div class="h-100">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-4 mt-5 shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="form-group my-3">
+                    <label for="exampleInputEmail1">И-Мэйл</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="И-мэйлээ оруулна уу.">
+                </div>
+                <div class="form-group my-3">
+                    <label for="exampleInputPassword1">Нууц үг</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1"
+                        placeholder="Нууц үгээ оруулна уу.">
+                </div>
+                <div class="form-group my-3">
+                    <a href="register.html">Бүртгүүлэх</a>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="login()">Нэвтрэх</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            alert("Амжилттай нэвтэрлээ!")
+        }
+    </script>
+
+</body>
+
+</html>
